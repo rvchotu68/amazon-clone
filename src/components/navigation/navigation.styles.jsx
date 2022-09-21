@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavContainer = styled.div`
@@ -17,4 +18,7 @@ export const SpanOne = styled.span`
 export const SpanTwo = styled.span`
   font-size: 13px;
   font-weight: 800;
+  cursor: pointer;
 `;
+
+export const NavLoginBtn = styled(Link)``;

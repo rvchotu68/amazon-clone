@@ -49,4 +49,9 @@ export const CheckoutButton = styled.button`
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  cursor: pointer;
+`;
+
+export const CartItemsContainer = styled.div`
+  min-width: 340px;
 `;
